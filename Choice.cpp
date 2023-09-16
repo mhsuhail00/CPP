@@ -1,6 +1,7 @@
 //Choice.cpp
 //CREATED BY MOHAMMAD SUHAIL
-//GITHUB@
+//GITHUB@mhsuhail00
+//https://github.com/mhsuhail00/CPP.git/
 #include <iostream>
 #include <conio.h>
 using namespace std;
