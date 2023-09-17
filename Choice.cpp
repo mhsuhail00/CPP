@@ -32,7 +32,7 @@ class choice
                     this->b=0;
                     continue;
                 }
-                if (static_cast<int>(r)<=47 || static_cast<int>(r)>=58)
+                if (r<=47 || r>=58)
                     continue;
                 if (r=='\r')
                     break;
@@ -42,9 +42,9 @@ class choice
                     bit=1;
                 }
                 if(key==0)
-                    this->a=this->a*10+static_cast<int>(r)-48;
+                    this->a=this->a*10+r-48;
                 else
-                    this->b=this->b*10+static_cast<int>(r)-48;
+                    this->b=this->b*10+r-48;
             }
         }
         int get1() //return first Integer a
